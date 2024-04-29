@@ -17,3 +17,5 @@ Tecnologias Utilizadas
     🔄 PropTypes: Utilizado para a validação das props dos componentes React.
     🐙 Git: Controle de versão do código-fonte.
     🌐 GitHub: Hospedagem do repositório e colaboração no desenvolvimento
+Deploy da página:
+    https://to-do-list-hyi0wnwru-vi-nas-projects.vercel.app/

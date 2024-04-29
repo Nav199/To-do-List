@@ -1,0 +1,87 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url('./img/to\ do\ list.png');
+  background-position: center;
+  background-size: cover;
+}
+.app{
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background: #efefef;
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+h1{
+  text-align: center;
+}
+h2{
+  margin-bottom: 10px;
+}
+p{
+  margin: 10px 0;
+}
+input{
+  box-sizing: border-box;
+}
+
+button{
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+  margin-right: 10px;
+}
+button:hover{
+  opacity: 1;
+}
+.Todoform{
+  padding-bottom: 1.5rem;
+}
+input,select{
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: solid 1px;
+  width: 100%;
+}
+.Complete{
+  background-color: #5cb85c;
+}
+.Delete{
+  background-color: #d9534f;
+}
+.todoList{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555;
+}
+.todo{
+    background-color: #fff;
+    box-shadow: 0 0 10 rgba(black);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filter,.search{
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.filter-options{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.filter-options div{
+    flex: 1 1 0
+}
